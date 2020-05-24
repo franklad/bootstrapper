@@ -14,7 +14,6 @@ upgrade
 ./build-essentials.sh
 
 ./esst.sh
-./go.sh
 ./python.sh
 ./misc.sh
 ./cloud.sh
