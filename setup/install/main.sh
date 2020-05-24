@@ -16,6 +16,7 @@ upgrade
 ./esst.sh
 ./python.sh
 ./misc.sh
+./jetbrains_toolbox.sh
 ./cloud.sh
 
 ./cleanup.sh
