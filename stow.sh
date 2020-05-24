@@ -1,7 +1,6 @@
 #!/bin/bash
 
 packages=(
-    conf
     git
     shell
 )
