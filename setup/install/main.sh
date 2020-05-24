@@ -6,6 +6,8 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+print_in_purple "\n • Install\n\n"
+
 update
 upgrade
 
@@ -16,6 +18,5 @@ upgrade
 ./python.sh
 ./misc.sh
 ./cloud.sh
-./bashtop.sh
 
 ./cleanup.sh

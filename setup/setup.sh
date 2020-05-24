@@ -242,7 +242,7 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    ./terminal_install
+    ./terminal_install.sh
 
     if cmd_exists "git"; then
 
