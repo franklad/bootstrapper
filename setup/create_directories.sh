@@ -17,24 +17,11 @@ create_directories() {
 
 }
 
-create_dot_directories() {
-
-    declare -a DIRECTORIES=(
-        "$HOME/.fonts"
-    )
-
-    for i in "${DIRECTORIES[@]}"; do
-        mkd ".$i"
-    done
-
-}
-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 main() {
     print_in_purple "\n • Create directories\n\n"
     create_directories
-    create_dot_directories
 }
 
 main

@@ -10,6 +10,8 @@ To set up the `dotfiles` run the appropriate snippet in the terminal:
 (⚠️  **DO NOT** run the `setup` snippet if you do not fully understand
 [what it does][setup]. Seriously, **DO NOT** ⚠️)
 
+(⚠️ **Rename the Terminal profile to Default to change the colors properly. refer to this [issue][issue]** ⚠️)
+
 | OS | Snippet |
 |:---|:---|
 | `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/franklad/dotfiles/master/setup/setup.sh)"` |
@@ -80,3 +82,4 @@ such as the `Git` user credentials, e.g.:
 [setup script]: setup/setup.sh
 [setup]: setup/setup.sh
 [shell]: shell
+[issue]: https://github.com/Mayccoll/Gogh/issues/63#issuecomment-304281674

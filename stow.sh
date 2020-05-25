@@ -1,7 +1,8 @@
 #!/bin/bash
 
 packages=(
-    conf
+    config
+    fonts
     git
     shell
 )
