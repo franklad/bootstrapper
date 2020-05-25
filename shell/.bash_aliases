@@ -23,6 +23,9 @@ alias q="exit"
 alias bat="bat --theme=ansi-dark"
 alias cat="bat --pager=never"
 alias less="bat"
+alias bwg="bw list --pretty items --search"
+alias vpn="expressvpn connect"
+alias dvpn="expressvpn disconnect"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
