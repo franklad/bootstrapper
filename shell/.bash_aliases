@@ -87,5 +87,5 @@ alias u="sudo apt-get update \
 
 alias dka="docker kill $(docker ps -a -q)"
 alias dra="docker rm $(docker ps -a -q)"
-alias drai="docker rmi $(docker ps -a -q)"
+alias drai="docker rmi $(docker images -a -q)"
 alias dps="docker-pretty-ps"
