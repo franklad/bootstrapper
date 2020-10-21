@@ -20,7 +20,7 @@ alias la="ls -al"
 alias map="xargs -n1"
 alias path='printf "%b\n" "${PATH//:/\\n}"'
 alias q="exit"
-alias bat="bat --theme=ansi-dark --style=plain" 
+alias bat="batcat --theme=ansi-dark --style=plain" 
 alias cat="bat --pager=never"
 alias less="bat"
 alias bwg="bw list --pretty items --search"
