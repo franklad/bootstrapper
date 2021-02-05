@@ -113,3 +113,6 @@ source $ZSH/oh-my-zsh.sh
 . ~/.bash_aliases
 . ~/.bash_exports
 . ~/.bash_functions
+
+# To customize prompt, run `p10k configure` or edit ~/dotfiles/shell/.p10k.zsh.
+[[ ! -f ~/dotfiles/shell/.p10k.zsh ]] || source ~/dotfiles/shell/.p10k.zsh

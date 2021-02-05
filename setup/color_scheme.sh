@@ -29,7 +29,7 @@ export COLOR_16="#EEEEEC"           #
 export BACKGROUND_COLOR="#2E3436"   # Background Color
 export FOREGROUND_COLOR="#D3D7CF"   # Text
 export CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-export PROFILE_NAME="Frank"
+export PROFILE_NAME="Material"
 # =============================================================== #
 
 

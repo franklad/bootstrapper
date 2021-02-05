@@ -79,10 +79,24 @@ qt() {
 # Make a go app scaffolding
 
 go_app() {
-	mkdir "$1" &&\
-	cd "$1" &&\
-	go mod init "$1" &&\
-	git init &&\
-	cobra init --pkg-name "$1" &&\
-	touch Makefile
+    mkdir "$1" &&\
+    cd "$1" &&\
+    go mod init "$1" &&\
+    git init &&\
+    cobra init --pkg-name "$1" &&\
+    ouch Makefile
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Connect to an openvpn server using a .ovpn file
+
+covpn() {
+    openvpn3 session-start --config "$1.ovpn"
+}
+
+# disconnect from an openvpn server using a .ovpn file
+
+dovpn() {
+    openvpn3 session-manage --disconnect --config "$1.ovpn"
 }
