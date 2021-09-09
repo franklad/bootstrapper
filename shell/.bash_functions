@@ -92,11 +92,11 @@ go_app() {
 # Connect to an openvpn server using a .ovpn file
 
 covpn() {
-    openvpn3 session-start --config "$1.ovpn"
+    openvpn3 session-start --config ~/.vpn/$1.ovpn
 }
 
 # disconnect from an openvpn server using a .ovpn file
 
 dovpn() {
-    openvpn3 session-manage --disconnect --config "$1.ovpn"
+    openvpn3 session-manage --disconnect --config ~/.vpn/$1.ovpn
 }

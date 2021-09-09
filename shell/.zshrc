@@ -116,3 +116,5 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/shell/.p10k.zsh.
 [[ ! -f ~/dotfiles/shell/.p10k.zsh ]] || source ~/dotfiles/shell/.p10k.zsh
+
+[[ -s "/home/frank/.gvm/scripts/gvm" ]] && source "/home/frank/.gvm/scripts/gvm"

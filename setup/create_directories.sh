@@ -9,6 +9,7 @@ create_directories() {
 
     declare -a DIRECTORIES=(
         "$HOME/Downloads/torrents"
+        "$HOME/.vpn"
     )
 
     for i in "${DIRECTORIES[@]}"; do
